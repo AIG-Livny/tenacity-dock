@@ -1,0 +1,21 @@
+
+export INSIDE_PATH=/inside
+export APP_SRC_PATH=/app
+
+export LANG=ru_RU.UTF-8
+
+export PATH=\
+/usr/local/sbin:\
+/usr/local/bin:\
+/usr/sbin:\
+/usr/bin:\
+/sbin:\
+/bin:\
+/usr/local/go/bin:\
+/inside/scripts:\
+/inside/common/scripts
+
+export TERM=xterm-256color
+
+
+export DOCK_PORTS='22/tcp -> 0.0.0.0:32772 22/tcp -> [::]:32772 '
